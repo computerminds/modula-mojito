@@ -289,3 +289,6 @@ div.journal-link {
 .new-issue-form p {
     padding-left: 100px !important;
 }
+.new-issue-form .splitcontentright p {
+    padding-left: 130px !important;
+}
