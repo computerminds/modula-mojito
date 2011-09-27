@@ -238,7 +238,7 @@ tr.message td.last_message {
 }
 
 div#activity dl, #search-results {
-	margin-left:0em;
+	margin-left: 1em;
 }
 div#activity dd, #search-results dd {
 	font-size:1em;
