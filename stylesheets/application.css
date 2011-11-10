@@ -27,6 +27,7 @@ a:hover { text-decoration: none; color: #455138;}
 #header { background-color: #3c3c3c; padding: 8px 0 0 0; height: 6em; }
 #header h1 { margin: 0 24px; }
 #header #quick-search { margin: 0 24px; }
+#header #quick-search input#q { width: 300px; margin-right: 20px; margin-left: 5px; }
 #top-menu { background-color: #2e2e2e; font-size: 1.0em; position: relative; margin-left: -.3em; padding: 0; height: 30px }
 #top-menu ul { padding: 0 21px; }
 #top-menu li, #top-menu #loggedas { color: #ddd; line-height: 30px; margin-right: 0px;}
