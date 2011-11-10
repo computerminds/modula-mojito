@@ -27,10 +27,10 @@ a:hover { text-decoration: none; color: #455138;}
 #header { background-color: #3c3c3c; padding: 8px 0 0 0; height: 6em; }
 #header h1 { margin: 0 24px; }
 #header #quick-search { margin: 0 24px; }
-#top-menu { background-color: #2e2e2e; font-size: .9em; position: relative; margin-left: -.3em; padding: 0; height: 21px }
+#top-menu { background-color: #2e2e2e; font-size: 1.0em; position: relative; margin-left: -.3em; padding: 0; height: 30px }
 #top-menu ul { padding: 0 21px; }
-#top-menu li, #top-menu #loggedas { color: #ddd; line-height: 21px; margin-right: 0px;}
-#top-menu li a { color: #aaa; font-weight: normal; padding:4px 5px; }
+#top-menu li, #top-menu #loggedas { color: #ddd; line-height: 30px; margin-right: 0px;}
+#top-menu li a { color: #ccc; font-weight: normal; padding:4px 5px; }
 #top-menu li a:hover { color: #fff; text-decoration: none; }
 #main { background: #3c3c3c; margin: 0 24px 0px 24px; }
 #content {
@@ -225,8 +225,8 @@ input[type="text"], textarea, select {
 .jstElements { margin-right: 3.5em;}
 .tabular label { font-weight: normal;}
 
-.contextual { margin-top: 0.3em; margin-right: 1em; font-size: 0.9em;}
-.contextual a{ color:#455138;}
+.contextual { line-height: 40px; margin-right: 1.5em; font-size: 0.9em;}
+.contextual a { color:#455138;}
 
 
 table.list thead th {
@@ -282,3 +282,4 @@ div.journal-link {
 .controller-projects ul.projects div.description {
   padding-left: 18px;
 }
+
