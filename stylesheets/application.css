@@ -273,3 +273,12 @@ div.journal-link {
 #main-menu li a.selected, #main-menu li a.selected:hover {
   background-color: #FFFFFF;
 }
+
+/* remove left border from child projects on project listing page */
+.controller-projects ul.projects ul.projects { border: 0; padding-left: 20px; }
+
+/* align all projects whether or not they are .my-project and have little star */
+.controller-projects ul.projects li div a,
+.controller-projects ul.projects div.description {
+  padding-left: 18px;
+}
