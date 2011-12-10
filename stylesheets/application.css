@@ -224,8 +224,13 @@ input[type="text"], textarea, select {
 .jstElements { margin-right: 3.5em;}
 .tabular label { font-weight: normal;}
 
-.contextual { line-height: 40px; margin-right: 1.5em; font-size: 0.9em;}
+.contextual { margin-top: 0.3em; margin-right: 1em; font-size: 0.9em;}
 .contextual a { color:#455138;}
+
+/**
+ * Special styling for the contextual links in issue headers.
+ */
+div#content div.contextual { line-height: 40px; margin-right: 1.5em; font-size: 0.9em;}
 
 
 table.list thead th {
