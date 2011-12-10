@@ -230,7 +230,7 @@ input[type="text"], textarea, select {
 /**
  * Special styling for the contextual links in issue headers.
  */
-div#content div.contextual { line-height: 40px; margin-right: 1.5em; font-size: 0.9em;}
+div#content > div.contextual { line-height: 40px; margin-right: 1.5em; font-size: 0.9em;}
 
 
 table.list thead th {
