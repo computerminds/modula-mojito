@@ -249,9 +249,9 @@ span.description { margin: .5em 0;}
 hr { background:#eee none repeat scroll 0% 0%; }
 
 .icon {
-	padding-left: 20px !import ant;
-	padding-top: 2px !import ant;
-	padding-bottom: 3px !import ant;
+	padding-left: 20px !important;
+	padding-top: 2px !important;
+	padding-bottom: 3px !important;
 }
 
 /**
