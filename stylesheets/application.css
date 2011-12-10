@@ -296,3 +296,10 @@ div.journal-link {
 .new-issue-form .splitcontentright p {
     padding-left: 130px !important;
 }
+
+/**
+ * Add some extra padding at the bottom of issues for clarity.
+ */
+div#history .journal {
+  padding-bottom: 1em;
+}
