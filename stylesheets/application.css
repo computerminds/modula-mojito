@@ -24,7 +24,7 @@ a:hover { text-decoration: none; color: #455138;}
 #sidebar label, #sidebar a:link, #sidebar a:hover, #sidebar a:active, #sidebar a:visited { color: #f0f0f0; }
 
 #header, #top-menu { margin: 0; }
-#header { background-color: #3c3c3c; padding: 8px 0 0 0; height: 6em; }
+#header { background-color: #3c3c3c; padding: 8px 0 0 0; height: auto; min-height: 6em; }
 #header h1 { margin: 0 24px; padding-bottom: 27px;}
 #header #quick-search { margin: 0 24px; }
 #header #quick-search input#q { width: 300px; margin-right: 20px; margin-left: 5px; }
