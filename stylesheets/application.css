@@ -303,3 +303,10 @@ div.journal-link {
 div#history .journal {
   padding-bottom: 1em;
 }
+
+/** 
+ * Make images used in pages have a max-width to avoid breaking layouts.
+ */
+div.wiki img {
+  max-width: 100%
+}
