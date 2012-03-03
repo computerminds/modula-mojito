@@ -15,8 +15,6 @@ Author:		www.modula.fi
 
 */
 
-@import url(../../../stylesheets/application.css);
-
 body, #wrapper { background-color:#3c3c3c; font-family: helvetica, "microsoft sans serif", arial, sans-serif; }
 
 a, a:link, a:visited { color: #7aa054; outline:none;}
