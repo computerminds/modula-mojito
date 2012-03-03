@@ -268,12 +268,12 @@ div.journal-link {
 /**
  * The calendar feature styles it's menu item with it's CSS, so undo those changes.
  */
-#main-menu li a.calendar {
+/*#main-menu li a.calendar {
   background-color: transparent;
   border: none;
   font-family: inherit;
   font-size: inherit;
-}
+}*/
 #main-menu li a.selected, #main-menu li a.selected:hover {
   background-color: #FFFFFF;
 }
