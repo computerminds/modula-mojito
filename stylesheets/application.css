@@ -265,19 +265,6 @@ div.journal-link {
   float: right;
 }
 
-/**
- * The calendar feature styles it's menu item with it's CSS, so undo those changes.
- */
-/*#main-menu li a.calendar {
-  background-color: transparent;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-}*/
-#main-menu li a.selected, #main-menu li a.selected:hover {
-  background-color: #FFFFFF;
-}
-
 /* remove left border from child projects on project listing page */
 .controller-projects ul.projects ul.projects { border: 0; padding-left: 20px; }
 
