@@ -258,13 +258,6 @@ hr { background:#eee none repeat scroll 0% 0%; }
 	padding-bottom: 3px !important;
 }
 
-/**
- * Float the journal-link over the right, as it looks much better there.
- */
-div.journal-link {
-  float: right;
-}
-
 /* remove left border from child projects on project listing page */
 .controller-projects ul.projects ul.projects { border: 0; padding-left: 20px; }
 
