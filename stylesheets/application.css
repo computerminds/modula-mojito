@@ -297,15 +297,3 @@ div#history .journal {
 div.wiki img {
   max-width: 100%
 }
-
-/**
- * Get the roadmap for specific issues looking decent.
- */
-#roadmap > form {
-  /**
-   * Clever CSS to make sure we don't crash into the floated element on the
-   * right.
-   */
-  display: block;
-  overflow: hidden;
-}
