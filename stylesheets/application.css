@@ -181,7 +181,7 @@ input[type='text'], input[type='password'], textarea { font-size: 13px; font-fam
 input[type="text"], textarea, select { padding: 2px;  }
 input[type="text"]:focus, textarea:focus, select:focus {  }
 option {  }
-input#issue_subject { font-size: 200%; width: 90%; }
+#issue-form.new_issue input#issue_subject { font-size: 200%; width: 90%; }
 input#issue_subject, #project_description { width: 92.5%; }
 textarea#issue_description { width: 93%;}
 
@@ -282,7 +282,7 @@ div#history .journal {
   padding-bottom: 1em;
 }
 
-/** 
+/**
  * Make images used in pages have a max-width to avoid breaking layouts.
  */
 div.wiki img {
