@@ -288,3 +288,26 @@ div#history .journal {
 div.wiki img {
   max-width: 100%
 }
+
+/**
+ * Print stylesheet elements.
+ */
+@media print {
+  h3, h4 {
+    color: black;
+  }
+
+  a, a:link, a:visited {
+    color: #455138;
+  }
+
+  #content {
+    width: 99%;
+  }
+
+  #issue-changesets {
+    display: none;
+  }
+
+}
+
