@@ -290,6 +290,31 @@ div.wiki img {
 }
 
 /**
+ * Support for the time tracking plugin.
+ */
+#top-menu li #time-tracker-menu a {
+    padding-right: 4px;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+/* Fix the top menu to the top of the screen */
+#top-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+#header {
+  margin-top: 30px;
+}
+.contextual.with-breadcrumb {
+  margin-top: 29px;
+}
+
+/**
  * Print stylesheet elements.
  */
 @media print {
